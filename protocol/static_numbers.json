@@ -1,0 +1,80 @@
+{
+ "params": {
+  "S2_T": 7142,
+  "S2_M": 7109,
+  "S2_pct": 0.462,
+  "S1_T": 3046,
+  "S1_M": 3013,
+  "S1_pct": 1.083
+ },
+ "base_training": {
+  "gpu_hours_total": 17.47,
+  "gpu_hours_fold_min": 3.45,
+  "gpu_hours_fold_max": 3.57,
+  "epochs": 100
+ },
+ "nnunet_validation_dice": {
+  "fold": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "mean_fg": [
+   0.688,
+   0.664,
+   0.674,
+   0.636,
+   0.682
+  ],
+  "netc": [
+   0.443,
+   0.427,
+   0.541,
+   0.422,
+   0.444
+  ],
+  "snfh": [
+   0.887,
+   0.862,
+   0.861,
+   0.841,
+   0.93
+  ],
+  "et": [
+   0.765,
+   0.804,
+   0.75,
+   0.757,
+   0.781
+  ],
+  "rc": [
+   0.658,
+   0.564,
+   0.545,
+   0.523,
+   0.573
+  ],
+  "mean_of_fold_means": 0.669
+ },
+ "original_submission": {
+  "ceiling_pct": 42.88,
+  "n_regions": 19432,
+  "T_mean": -0.038416,
+  "M_mean": -0.329898,
+  "diff": 0.291482,
+  "diff_lo": 0.238983,
+  "diff_hi": 0.345982,
+  "T_acted": 6763,
+  "M_acted": 15034,
+  "T_act_auc_joint": 0.588,
+  "T_act_auc_separate": 0.947,
+  "brier": 0.564
+ },
+ "tiled_extra": {
+  "actionable_pct": 78.33985179086044,
+  "bg_target_pct": 90.16619588780135,
+  "n_actionable": 15223
+ }
+}

@@ -1,0 +1,614 @@
+{
+ "PatientID_0004": {
+  "inner_fold": 1,
+  "network": 4
+ },
+ "PatientID_0005": {
+  "inner_fold": 1,
+  "network": 4
+ },
+ "PatientID_0006": {
+  "inner_fold": 3,
+  "network": 0
+ },
+ "PatientID_0009": {
+  "inner_fold": 0,
+  "network": 1
+ },
+ "PatientID_0010": {
+  "inner_fold": 1,
+  "network": 0
+ },
+ "PatientID_0011": {
+  "inner_fold": 4,
+  "network": 1
+ },
+ "PatientID_0012": {
+  "inner_fold": 3,
+  "network": 2
+ },
+ "PatientID_0013": {
+  "inner_fold": 3,
+  "network": 1
+ },
+ "PatientID_0014": {
+  "inner_fold": 3,
+  "network": 0
+ },
+ "PatientID_0015": {
+  "inner_fold": 1,
+  "network": 0
+ },
+ "PatientID_0018": {
+  "inner_fold": 1,
+  "network": 0
+ },
+ "PatientID_0020": {
+  "inner_fold": 2,
+  "network": 3
+ },
+ "PatientID_0021": {
+  "inner_fold": 3,
+  "network": 1
+ },
+ "PatientID_0022": {
+  "inner_fold": 2,
+  "network": 4
+ },
+ "PatientID_0023": {
+  "inner_fold": 2,
+  "network": 0
+ },
+ "PatientID_0025": {
+  "inner_fold": 3,
+  "network": 1
+ },
+ "PatientID_0026": {
+  "inner_fold": 2,
+  "network": 3
+ },
+ "PatientID_0027": {
+  "inner_fold": 3,
+  "network": 0
+ },
+ "PatientID_0030": {
+  "inner_fold": 4,
+  "network": 1
+ },
+ "PatientID_0033": {
+  "inner_fold": 2,
+  "network": 1
+ },
+ "PatientID_0036": {
+  "inner_fold": 0,
+  "network": 3
+ },
+ "PatientID_0038": {
+  "inner_fold": 4,
+  "network": 3
+ },
+ "PatientID_0039": {
+  "inner_fold": 1,
+  "network": 0
+ },
+ "PatientID_0040": {
+  "inner_fold": 2,
+  "network": 0
+ },
+ "PatientID_0042": {
+  "inner_fold": 1,
+  "network": 1
+ },
+ "PatientID_0044": {
+  "inner_fold": 4,
+  "network": 0
+ },
+ "PatientID_0045": {
+  "inner_fold": 3,
+  "network": 2
+ },
+ "PatientID_0049": {
+  "inner_fold": 1,
+  "network": 1
+ },
+ "PatientID_0051": {
+  "inner_fold": 4,
+  "network": 2
+ },
+ "PatientID_0052": {
+  "inner_fold": 0,
+  "network": 0
+ },
+ "PatientID_0056": {
+  "inner_fold": 0,
+  "network": 1
+ },
+ "PatientID_0057": {
+  "inner_fold": 1,
+  "network": 0
+ },
+ "PatientID_0058": {
+  "inner_fold": 2,
+  "network": 4
+ },
+ "PatientID_0059": {
+  "inner_fold": 3,
+  "network": 0
+ },
+ "PatientID_0060": {
+  "inner_fold": 4,
+  "network": 3
+ },
+ "PatientID_0061": {
+  "inner_fold": 3,
+  "network": 3
+ },
+ "PatientID_0062": {
+  "inner_fold": 3,
+  "network": 2
+ },
+ "PatientID_0063": {
+  "inner_fold": 4,
+  "network": 0
+ },
+ "PatientID_0064": {
+  "inner_fold": 1,
+  "network": 1
+ },
+ "PatientID_0065": {
+  "inner_fold": 4,
+  "network": 4
+ },
+ "PatientID_0066": {
+  "inner_fold": 2,
+  "network": 3
+ },
+ "PatientID_0068": {
+  "inner_fold": 2,
+  "network": 4
+ },
+ "PatientID_0069": {
+  "inner_fold": 0,
+  "network": 0
+ },
+ "PatientID_0070": {
+  "inner_fold": 3,
+  "network": 0
+ },
+ "PatientID_0071": {
+  "inner_fold": 1,
+  "network": 4
+ },
+ "PatientID_0072": {
+  "inner_fold": 2,
+  "network": 2
+ },
+ "PatientID_0073": {
+  "inner_fold": 1,
+  "network": 3
+ },
+ "PatientID_0076": {
+  "inner_fold": 4,
+  "network": 0
+ },
+ "PatientID_0077": {
+  "inner_fold": 0,
+  "network": 3
+ },
+ "PatientID_0078": {
+  "inner_fold": 3,
+  "network": 0
+ },
+ "PatientID_0079": {
+  "inner_fold": 1,
+  "network": 2
+ },
+ "PatientID_0080": {
+  "inner_fold": 0,
+  "network": 0
+ },
+ "PatientID_0081": {
+  "inner_fold": 1,
+  "network": 2
+ },
+ "PatientID_0082": {
+  "inner_fold": 4,
+  "network": 3
+ },
+ "PatientID_0083": {
+  "inner_fold": 2,
+  "network": 2
+ },
+ "PatientID_0084": {
+  "inner_fold": 4,
+  "network": 4
+ },
+ "PatientID_0085": {
+  "inner_fold": 2,
+  "network": 1
+ },
+ "PatientID_0087": {
+  "inner_fold": 1,
+  "network": 0
+ },
+ "PatientID_0090": {
+  "inner_fold": 3,
+  "network": 3
+ },
+ "PatientID_0091": {
+  "inner_fold": 2,
+  "network": 1
+ },
+ "PatientID_0092": {
+  "inner_fold": 4,
+  "network": 2
+ },
+ "PatientID_0093": {
+  "inner_fold": 0,
+  "network": 3
+ },
+ "PatientID_0094": {
+  "inner_fold": 1,
+  "network": 4
+ },
+ "PatientID_0095": {
+  "inner_fold": 2,
+  "network": 1
+ },
+ "PatientID_0097": {
+  "inner_fold": 4,
+  "network": 0
+ },
+ "PatientID_0101": {
+  "inner_fold": 0,
+  "network": 4
+ },
+ "PatientID_0103": {
+  "inner_fold": 4,
+  "network": 3
+ },
+ "PatientID_0105": {
+  "inner_fold": 2,
+  "network": 4
+ },
+ "PatientID_0106": {
+  "inner_fold": 1,
+  "network": 3
+ },
+ "PatientID_0108": {
+  "inner_fold": 3,
+  "network": 2
+ },
+ "PatientID_0110": {
+  "inner_fold": 4,
+  "network": 1
+ },
+ "PatientID_0111": {
+  "inner_fold": 3,
+  "network": 3
+ },
+ "PatientID_0112": {
+  "inner_fold": 2,
+  "network": 3
+ },
+ "PatientID_0113": {
+  "inner_fold": 0,
+  "network": 2
+ },
+ "PatientID_0114": {
+  "inner_fold": 3,
+  "network": 4
+ },
+ "PatientID_0115": {
+  "inner_fold": 4,
+  "network": 3
+ },
+ "PatientID_0116": {
+  "inner_fold": 1,
+  "network": 2
+ },
+ "PatientID_0117": {
+  "inner_fold": 4,
+  "network": 4
+ },
+ "PatientID_0118": {
+  "inner_fold": 2,
+  "network": 0
+ },
+ "PatientID_0121": {
+  "inner_fold": 3,
+  "network": 1
+ },
+ "PatientID_0123": {
+  "inner_fold": 4,
+  "network": 2
+ },
+ "PatientID_0124": {
+  "inner_fold": 2,
+  "network": 2
+ },
+ "PatientID_0126": {
+  "inner_fold": 0,
+  "network": 0
+ },
+ "PatientID_0130": {
+  "inner_fold": 1,
+  "network": 3
+ },
+ "PatientID_0132": {
+  "inner_fold": 0,
+  "network": 2
+ },
+ "PatientID_0133": {
+  "inner_fold": 3,
+  "network": 1
+ },
+ "PatientID_0138": {
+  "inner_fold": 1,
+  "network": 3
+ },
+ "PatientID_0139": {
+  "inner_fold": 2,
+  "network": 0
+ },
+ "PatientID_0140": {
+  "inner_fold": 0,
+  "network": 3
+ },
+ "PatientID_0141": {
+  "inner_fold": 4,
+  "network": 2
+ },
+ "PatientID_0142": {
+  "inner_fold": 0,
+  "network": 4
+ },
+ "PatientID_0143": {
+  "inner_fold": 2,
+  "network": 3
+ },
+ "PatientID_0144": {
+  "inner_fold": 0,
+  "network": 0
+ },
+ "PatientID_0148": {
+  "inner_fold": 4,
+  "network": 1
+ },
+ "PatientID_0149": {
+  "inner_fold": 2,
+  "network": 4
+ },
+ "PatientID_0150": {
+  "inner_fold": 3,
+  "network": 4
+ },
+ "PatientID_0151": {
+  "inner_fold": 0,
+  "network": 1
+ },
+ "PatientID_0152": {
+  "inner_fold": 1,
+  "network": 2
+ },
+ "PatientID_0155": {
+  "inner_fold": 4,
+  "network": 4
+ },
+ "PatientID_0156": {
+  "inner_fold": 4,
+  "network": 1
+ },
+ "PatientID_0158": {
+  "inner_fold": 1,
+  "network": 4
+ },
+ "PatientID_0160": {
+  "inner_fold": 0,
+  "network": 2
+ },
+ "PatientID_0161": {
+  "inner_fold": 4,
+  "network": 1
+ },
+ "PatientID_0164": {
+  "inner_fold": 0,
+  "network": 0
+ },
+ "PatientID_0165": {
+  "inner_fold": 4,
+  "network": 4
+ },
+ "PatientID_0168": {
+  "inner_fold": 0,
+  "network": 0
+ },
+ "PatientID_0169": {
+  "inner_fold": 0,
+  "network": 1
+ },
+ "PatientID_0170": {
+  "inner_fold": 1,
+  "network": 2
+ },
+ "PatientID_0173": {
+  "inner_fold": 0,
+  "network": 1
+ },
+ "PatientID_0174": {
+  "inner_fold": 4,
+  "network": 3
+ },
+ "PatientID_0186": {
+  "inner_fold": 3,
+  "network": 4
+ },
+ "PatientID_0187": {
+  "inner_fold": 1,
+  "network": 4
+ },
+ "PatientID_0188": {
+  "inner_fold": 2,
+  "network": 4
+ },
+ "PatientID_0189": {
+  "inner_fold": 1,
+  "network": 3
+ },
+ "PatientID_0191": {
+  "inner_fold": 3,
+  "network": 3
+ },
+ "PatientID_0192": {
+  "inner_fold": 1,
+  "network": 1
+ },
+ "PatientID_0196": {
+  "inner_fold": 0,
+  "network": 2
+ },
+ "PatientID_0197": {
+  "inner_fold": 0,
+  "network": 4
+ },
+ "PatientID_0198": {
+  "inner_fold": 0,
+  "network": 4
+ },
+ "PatientID_0200": {
+  "inner_fold": 2,
+  "network": 2
+ },
+ "PatientID_0201": {
+  "inner_fold": 4,
+  "network": 0
+ },
+ "PatientID_0203": {
+  "inner_fold": 1,
+  "network": 2
+ },
+ "PatientID_0204": {
+  "inner_fold": 3,
+  "network": 3
+ },
+ "PatientID_0205": {
+  "inner_fold": 2,
+  "network": 1
+ },
+ "PatientID_0206": {
+  "inner_fold": 2,
+  "network": 0
+ },
+ "PatientID_0208": {
+  "inner_fold": 0,
+  "network": 2
+ },
+ "PatientID_0209": {
+  "inner_fold": 1,
+  "network": 1
+ },
+ "PatientID_0210": {
+  "inner_fold": 0,
+  "network": 1
+ },
+ "PatientID_0211": {
+  "inner_fold": 3,
+  "network": 3
+ },
+ "PatientID_0213": {
+  "inner_fold": 4,
+  "network": 2
+ },
+ "PatientID_0214": {
+  "inner_fold": 3,
+  "network": 2
+ },
+ "PatientID_0216": {
+  "inner_fold": 0,
+  "network": 2
+ },
+ "PatientID_0220": {
+  "inner_fold": 3,
+  "network": 2
+ },
+ "PatientID_0235": {
+  "inner_fold": 0,
+  "network": 4
+ },
+ "PatientID_0237": {
+  "inner_fold": 0,
+  "network": 3
+ },
+ "PatientID_0239": {
+  "inner_fold": 1,
+  "network": 3
+ },
+ "PatientID_0240": {
+  "inner_fold": 4,
+  "network": 2
+ },
+ "PatientID_0242": {
+  "inner_fold": 4,
+  "network": 0
+ },
+ "PatientID_0244": {
+  "inner_fold": 2,
+  "network": 2
+ },
+ "PatientID_0251": {
+  "inner_fold": 2,
+  "network": 3
+ },
+ "PatientID_0252": {
+  "inner_fold": 2,
+  "network": 1
+ },
+ "PatientID_0254": {
+  "inner_fold": 0,
+  "network": 2
+ },
+ "PatientID_0255": {
+  "inner_fold": 1,
+  "network": 1
+ },
+ "PatientID_0256": {
+  "inner_fold": 3,
+  "network": 1
+ },
+ "PatientID_0260": {
+  "inner_fold": 3,
+  "network": 4
+ },
+ "PatientID_0264": {
+  "inner_fold": 3,
+  "network": 4
+ },
+ "PatientID_0265": {
+  "inner_fold": 0,
+  "network": 4
+ },
+ "PatientID_0268": {
+  "inner_fold": 2,
+  "network": 0
+ },
+ "PatientID_0270": {
+  "inner_fold": 3,
+  "network": 4
+ },
+ "PatientID_0271": {
+  "inner_fold": 0,
+  "network": 3
+ },
+ "PatientID_0272": {
+  "inner_fold": 2,
+  "network": 2
+ },
+ "PatientID_0274": {
+  "inner_fold": 4,
+  "network": 4
+ },
+ "PatientID_0275": {
+  "inner_fold": 0,
+  "network": 1
+ }
+}

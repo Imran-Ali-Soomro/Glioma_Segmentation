@@ -1,0 +1,53 @@
+{
+ "E_valid": 8662107,
+ "missed": 2607924,
+ "non_missed": 6054183,
+ "gain_ceiling_numerator": 3714090.0,
+ "ceiling_pct": 42.87744309785137,
+ "E_in_regions_ge8": 5984772.0,
+ "H_heterogeneity_regions_ge8": 2270682.0,
+ "F_error_in_components_lt8": 69411.0,
+ "recomputed_total_error_from_masks": 8662107,
+ "recomputed_missed_from_masks": 2607924,
+ "n_components_lt8": 40524,
+ "F_error_in_components_lt8_from_masks": 69411,
+ "gain_sub8_recoverable_by_oracle_relabel": 67787,
+ "H_sub8_residual": 1624,
+ "per_class_sub8": {
+  "netc": {
+   "err": 1556,
+   "gain": 1309
+  },
+  "snfh": {
+   "err": 18601,
+   "gain": 17862
+  },
+  "et": {
+   "err": 22918,
+   "gain": 22525
+  },
+  "rc": {
+   "err": 26336,
+   "gain": 26091
+  }
+ },
+ "pct_of_total_error": {
+  "missed_tissue (unreachable)": 30.10727066751773,
+  "ceiling: oracle relabel of regions >=8": 42.87744309785137,
+  "heterogeneity inside regions >=8 (H)": 26.213968495194067,
+  "sub-8 components, recoverable by oracle relabel": 0.7825694141159881,
+  "sub-8 components, still heterogeneous": 0.01874832532084861
+ },
+ "counterfactual_ceilings_pct": {
+  "as_published (min size 8, heterogeneous regions)": 42.87744309785137,
+  "no minimum size (heterogeneous regions)": 43.66001251196735,
+  "homogeneous regions, min size 8": 69.09141159304544,
+  "no minimum size AND homogeneous (= all non-missed error)": 69.89272933248228
+ },
+ "gap_explained": {
+  "gap_pct_of_error": 27.015286234630903,
+  "heterogeneity_share_of_gap": 0.9703383583472964,
+  "sub8_share_of_gap": 0.029661641652703546,
+  "of_which_sub8_recoverable_by_removing_min_size": 0.028967652140320918
+ }
+}

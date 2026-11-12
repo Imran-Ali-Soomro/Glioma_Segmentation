@@ -1,0 +1,39 @@
+{
+ "source": "MU-Glioma-Post, TCIA version 1 (updated 2025-03-21); counts taken from the local copy of the release",
+ "timepoint_folders_in_release": 596,
+ "timepoints_with_label": 594,
+ "timepoints_without_label_file": [
+  "PatientID_0187_Timepoint_3",
+  "PatientID_0191_Timepoint_1"
+ ],
+ "development": {
+  "patients": 153,
+  "labelled_timepoints": 439,
+  "analysed": 439
+ },
+ "reserved": {
+  "patients": 50,
+  "labelled_timepoints": 155,
+  "analysed": 140,
+  "labelled_but_not_analysed": [
+   "PatientID_0003_Timepoint_2",
+   "PatientID_0029_Timepoint_1",
+   "PatientID_0032_Timepoint_1",
+   "PatientID_0032_Timepoint_6",
+   "PatientID_0034_Timepoint_5",
+   "PatientID_0041_Timepoint_2",
+   "PatientID_0043_Timepoint_1",
+   "PatientID_0074_Timepoint_3",
+   "PatientID_0089_Timepoint_3",
+   "PatientID_0089_Timepoint_6",
+   "PatientID_0147_Timepoint_1",
+   "PatientID_0157_Timepoint_5",
+   "PatientID_0162_Timepoint_4",
+   "PatientID_0162_Timepoint_6",
+   "PatientID_0207_Timepoint_2"
+  ],
+  "reason": "never converted to nnU-Net input: the conversion script excluded the cases of data/held_out_test_set.json (superseded case-level test list dated 2026-08-03, defined from label composition)"
+ },
+ "total_analysed": 579,
+ "total_labelled_not_analysed": 15
+}

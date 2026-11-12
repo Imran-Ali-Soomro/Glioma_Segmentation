@@ -1,0 +1,63 @@
+{
+ "E_valid": 5137671,
+ "missed": 2380384,
+ "non_missed": 2757287,
+ "gain_ceiling_numerator": 860604.0,
+ "ceiling_pct": 16.75085851157071,
+ "E_in_regions_ge8": 2744366.0,
+ "H_heterogeneity_regions_ge8": 1883762.0,
+ "F_error_in_components_lt8": 12921.0,
+ "topology_voxels": {
+  "wrong_fg_class": 1197904,
+  "over_segmentation": 1559383,
+  "missed_tissue": 2380384
+ },
+ "topology_pct": {
+  "wrong_fg_class": 23.316090111647867,
+  "over_segmentation": 30.351943516819198,
+  "missed_tissue": 46.331966371532936
+ },
+ "recomputed_total_error_from_masks": 5137671,
+ "recomputed_missed_from_masks": 2380384,
+ "n_components_lt8": 9599,
+ "F_error_in_components_lt8_from_masks": 12921,
+ "gain_sub8_recoverable_by_oracle_relabel": 11570,
+ "H_sub8_residual": 1351,
+ "per_class_sub8": {
+  "netc": {
+   "err": 1252,
+   "gain": 1030
+  },
+  "snfh": {
+   "err": 6817,
+   "gain": 6132
+  },
+  "et": {
+   "err": 2873,
+   "gain": 2582
+  },
+  "rc": {
+   "err": 1979,
+   "gain": 1826
+  }
+ },
+ "pct_of_total_error": {
+  "missed_tissue (unreachable)": 46.331966371532936,
+  "ceiling: oracle relabel of regions >=8": 16.75085851157071,
+  "heterogeneity inside regions >=8 (H)": 36.66567983819906,
+  "sub-8 components, recoverable by oracle relabel": 0.22519931696677348,
+  "sub-8 components, still heterogeneous": 0.02629596173051953
+ },
+ "counterfactual_ceilings_pct": {
+  "as_published (min size 8, heterogeneous regions)": 16.75085851157071,
+  "no minimum size (heterogeneous regions)": 16.976057828537485,
+  "homogeneous regions, min size 8": 53.416538349769766,
+  "no minimum size AND homogeneous (= all non-missed error)": 53.668033628467064
+ },
+ "gap_explained": {
+  "gap_pct_of_error": 36.91717511689635,
+  "heterogeneity_share_of_gap": 0.9931875806341913,
+  "sub8_share_of_gap": 0.006812419365808625,
+  "of_which_sub8_recoverable_by_removing_min_size": 0.006100123215107638
+ }
+}

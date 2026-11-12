@@ -1,0 +1,1831 @@
+{
+  "n_folds": 5,
+  "seed": 20261001,
+  "method": "plain_shuffled_groupkfold",
+  "n_dev_patients": 153,
+  "n_patients_with_cases": 153,
+  "missing_patients": [],
+  "unrecoverable_cases_excluded": [
+    "PatientID_0187_Timepoint_3",
+    "PatientID_0191_Timepoint_1"
+  ],
+  "patient_class_presence": {
+    "PatientID_0004": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0005": [
+      "et",
+      "netc",
+      "snfh"
+    ],
+    "PatientID_0006": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0009": [
+      "et",
+      "netc",
+      "snfh"
+    ],
+    "PatientID_0010": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0011": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0012": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0013": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0014": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0015": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0018": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0020": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0021": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0022": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0023": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0025": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0026": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0027": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0030": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0033": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0036": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0038": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0039": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0040": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0042": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0044": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0045": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0049": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0051": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0052": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0056": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0057": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0058": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0059": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0060": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0061": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0062": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0063": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0064": [
+      "et",
+      "netc",
+      "snfh"
+    ],
+    "PatientID_0065": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0066": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0068": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0069": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0070": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0071": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0072": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0073": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0076": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0077": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0078": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0079": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0080": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0081": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0082": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0083": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0084": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0085": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0087": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0090": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0091": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0092": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0093": [
+      "et",
+      "netc",
+      "snfh"
+    ],
+    "PatientID_0094": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0095": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0097": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0101": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0103": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0105": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0106": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0108": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0110": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0111": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0112": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0113": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0114": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0115": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0116": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0117": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0118": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0121": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0123": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0124": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0126": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0130": [
+      "et",
+      "netc",
+      "snfh"
+    ],
+    "PatientID_0132": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0133": [
+      "et",
+      "netc",
+      "snfh"
+    ],
+    "PatientID_0138": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0139": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0140": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0141": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0142": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0143": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0144": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0148": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0149": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0150": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0151": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0152": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0155": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0156": [
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0158": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0160": [
+      "et",
+      "snfh"
+    ],
+    "PatientID_0161": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0164": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0165": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0168": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0169": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0170": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0173": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0174": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0186": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0187": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0188": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0189": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0191": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0192": [
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0196": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0197": [
+      "et",
+      "rc"
+    ],
+    "PatientID_0198": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0200": [
+      "et",
+      "netc",
+      "snfh"
+    ],
+    "PatientID_0201": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0203": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0204": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0205": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0206": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0208": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0209": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0210": [
+      "et",
+      "netc",
+      "snfh"
+    ],
+    "PatientID_0211": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0213": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0214": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0216": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0220": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0235": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0237": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0239": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0240": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0242": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0244": [
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0251": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0252": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0254": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0255": [
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0256": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0260": [
+      "snfh"
+    ],
+    "PatientID_0264": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0265": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0268": [
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0270": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0271": [
+      "et",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0272": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0274": [
+      "et",
+      "netc",
+      "rc",
+      "snfh"
+    ],
+    "PatientID_0275": [
+      "et",
+      "rc",
+      "snfh"
+    ]
+  },
+  "fold_assignment": {
+    "PatientID_0044": 0,
+    "PatientID_0148": 1,
+    "PatientID_0116": 2,
+    "PatientID_0211": 3,
+    "PatientID_0197": 4,
+    "PatientID_0040": 0,
+    "PatientID_0056": 1,
+    "PatientID_0051": 2,
+    "PatientID_0237": 3,
+    "PatientID_0114": 4,
+    "PatientID_0070": 0,
+    "PatientID_0095": 1,
+    "PatientID_0213": 2,
+    "PatientID_0112": 3,
+    "PatientID_0094": 4,
+    "PatientID_0087": 0,
+    "PatientID_0009": 1,
+    "PatientID_0196": 2,
+    "PatientID_0082": 3,
+    "PatientID_0101": 4,
+    "PatientID_0144": 0,
+    "PatientID_0064": 1,
+    "PatientID_0272": 2,
+    "PatientID_0038": 3,
+    "PatientID_0005": 4,
+    "PatientID_0097": 0,
+    "PatientID_0091": 1,
+    "PatientID_0214": 2,
+    "PatientID_0143": 3,
+    "PatientID_0142": 4,
+    "PatientID_0076": 0,
+    "PatientID_0169": 1,
+    "PatientID_0124": 2,
+    "PatientID_0060": 3,
+    "PatientID_0071": 4,
+    "PatientID_0059": 0,
+    "PatientID_0255": 1,
+    "PatientID_0108": 2,
+    "PatientID_0090": 3,
+    "PatientID_0274": 4,
+    "PatientID_0139": 0,
+    "PatientID_0121": 1,
+    "PatientID_0083": 2,
+    "PatientID_0020": 3,
+    "PatientID_0264": 4,
+    "PatientID_0018": 0,
+    "PatientID_0030": 1,
+    "PatientID_0220": 2,
+    "PatientID_0174": 3,
+    "PatientID_0198": 4,
+    "PatientID_0015": 0,
+    "PatientID_0252": 1,
+    "PatientID_0203": 2,
+    "PatientID_0271": 3,
+    "PatientID_0265": 4,
+    "PatientID_0014": 0,
+    "PatientID_0011": 1,
+    "PatientID_0045": 2,
+    "PatientID_0061": 3,
+    "PatientID_0187": 4,
+    "PatientID_0242": 0,
+    "PatientID_0161": 1,
+    "PatientID_0141": 2,
+    "PatientID_0111": 3,
+    "PatientID_0149": 4,
+    "PatientID_0126": 0,
+    "PatientID_0210": 1,
+    "PatientID_0200": 2,
+    "PatientID_0189": 3,
+    "PatientID_0150": 4,
+    "PatientID_0069": 0,
+    "PatientID_0110": 1,
+    "PatientID_0092": 2,
+    "PatientID_0073": 3,
+    "PatientID_0058": 4,
+    "PatientID_0268": 0,
+    "PatientID_0256": 1,
+    "PatientID_0012": 2,
+    "PatientID_0239": 3,
+    "PatientID_0004": 4,
+    "PatientID_0201": 0,
+    "PatientID_0049": 1,
+    "PatientID_0081": 2,
+    "PatientID_0077": 3,
+    "PatientID_0155": 4,
+    "PatientID_0206": 0,
+    "PatientID_0151": 1,
+    "PatientID_0160": 2,
+    "PatientID_0103": 3,
+    "PatientID_0084": 4,
+    "PatientID_0080": 0,
+    "PatientID_0275": 1,
+    "PatientID_0079": 2,
+    "PatientID_0026": 3,
+    "PatientID_0105": 4,
+    "PatientID_0023": 0,
+    "PatientID_0173": 1,
+    "PatientID_0113": 2,
+    "PatientID_0066": 3,
+    "PatientID_0065": 4,
+    "PatientID_0006": 0,
+    "PatientID_0042": 1,
+    "PatientID_0208": 2,
+    "PatientID_0138": 3,
+    "PatientID_0117": 4,
+    "PatientID_0168": 0,
+    "PatientID_0192": 1,
+    "PatientID_0072": 2,
+    "PatientID_0204": 3,
+    "PatientID_0235": 4,
+    "PatientID_0164": 0,
+    "PatientID_0209": 1,
+    "PatientID_0244": 2,
+    "PatientID_0191": 3,
+    "PatientID_0188": 4,
+    "PatientID_0078": 0,
+    "PatientID_0085": 1,
+    "PatientID_0123": 2,
+    "PatientID_0036": 3,
+    "PatientID_0165": 4,
+    "PatientID_0027": 0,
+    "PatientID_0021": 1,
+    "PatientID_0152": 2,
+    "PatientID_0140": 3,
+    "PatientID_0186": 4,
+    "PatientID_0063": 0,
+    "PatientID_0013": 1,
+    "PatientID_0132": 2,
+    "PatientID_0106": 3,
+    "PatientID_0260": 4,
+    "PatientID_0039": 0,
+    "PatientID_0133": 1,
+    "PatientID_0216": 2,
+    "PatientID_0251": 3,
+    "PatientID_0022": 4,
+    "PatientID_0052": 0,
+    "PatientID_0033": 1,
+    "PatientID_0240": 2,
+    "PatientID_0130": 3,
+    "PatientID_0158": 4,
+    "PatientID_0010": 0,
+    "PatientID_0156": 1,
+    "PatientID_0170": 2,
+    "PatientID_0093": 3,
+    "PatientID_0068": 4,
+    "PatientID_0118": 0,
+    "PatientID_0025": 1,
+    "PatientID_0254": 2,
+    "PatientID_0115": 3,
+    "PatientID_0270": 4,
+    "PatientID_0057": 0,
+    "PatientID_0205": 1,
+    "PatientID_0062": 2
+  },
+  "fold_stats": [
+    {
+      "fold": 0,
+      "n_patients": 31,
+      "n_cases": 90,
+      "class_presence_patient_counts": {
+        "netc": 22,
+        "snfh": 31,
+        "et": 30,
+        "rc": 31
+      }
+    },
+    {
+      "fold": 1,
+      "n_patients": 31,
+      "n_cases": 93,
+      "class_presence_patient_counts": {
+        "netc": 24,
+        "snfh": 31,
+        "et": 28,
+        "rc": 27
+      }
+    },
+    {
+      "fold": 2,
+      "n_patients": 31,
+      "n_cases": 82,
+      "class_presence_patient_counts": {
+        "netc": 22,
+        "snfh": 31,
+        "et": 30,
+        "rc": 29
+      }
+    },
+    {
+      "fold": 3,
+      "n_patients": 30,
+      "n_cases": 87,
+      "class_presence_patient_counts": {
+        "netc": 21,
+        "snfh": 30,
+        "et": 30,
+        "rc": 28
+      }
+    },
+    {
+      "fold": 4,
+      "n_patients": 30,
+      "n_cases": 87,
+      "class_presence_patient_counts": {
+        "netc": 21,
+        "snfh": 29,
+        "et": 29,
+        "rc": 28
+      }
+    }
+  ],
+  "patient_cases": {
+    "PatientID_0004": [
+      "PatientID_0004_Timepoint_1"
+    ],
+    "PatientID_0005": [
+      "PatientID_0005_Timepoint_3",
+      "PatientID_0005_Timepoint_4"
+    ],
+    "PatientID_0006": [
+      "PatientID_0006_Timepoint_2",
+      "PatientID_0006_Timepoint_4",
+      "PatientID_0006_Timepoint_5",
+      "PatientID_0006_Timepoint_6"
+    ],
+    "PatientID_0009": [
+      "PatientID_0009_Timepoint_2"
+    ],
+    "PatientID_0010": [
+      "PatientID_0010_Timepoint_1",
+      "PatientID_0010_Timepoint_4",
+      "PatientID_0010_Timepoint_5"
+    ],
+    "PatientID_0011": [
+      "PatientID_0011_Timepoint_1",
+      "PatientID_0011_Timepoint_2"
+    ],
+    "PatientID_0012": [
+      "PatientID_0012_Timepoint_2",
+      "PatientID_0012_Timepoint_3"
+    ],
+    "PatientID_0013": [
+      "PatientID_0013_Timepoint_1",
+      "PatientID_0013_Timepoint_2",
+      "PatientID_0013_Timepoint_4",
+      "PatientID_0013_Timepoint_5",
+      "PatientID_0013_Timepoint_6"
+    ],
+    "PatientID_0014": [
+      "PatientID_0014_Timepoint_1",
+      "PatientID_0014_Timepoint_2",
+      "PatientID_0014_Timepoint_3",
+      "PatientID_0014_Timepoint_4",
+      "PatientID_0014_Timepoint_5",
+      "PatientID_0014_Timepoint_6"
+    ],
+    "PatientID_0015": [
+      "PatientID_0015_Timepoint_1"
+    ],
+    "PatientID_0018": [
+      "PatientID_0018_Timepoint_1",
+      "PatientID_0018_Timepoint_2",
+      "PatientID_0018_Timepoint_4",
+      "PatientID_0018_Timepoint_5",
+      "PatientID_0018_Timepoint_6"
+    ],
+    "PatientID_0020": [
+      "PatientID_0020_Timepoint_1",
+      "PatientID_0020_Timepoint_2",
+      "PatientID_0020_Timepoint_3",
+      "PatientID_0020_Timepoint_4"
+    ],
+    "PatientID_0021": [
+      "PatientID_0021_Timepoint_2",
+      "PatientID_0021_Timepoint_3",
+      "PatientID_0021_Timepoint_4",
+      "PatientID_0021_Timepoint_5",
+      "PatientID_0021_Timepoint_6"
+    ],
+    "PatientID_0022": [
+      "PatientID_0022_Timepoint_1",
+      "PatientID_0022_Timepoint_2",
+      "PatientID_0022_Timepoint_3"
+    ],
+    "PatientID_0023": [
+      "PatientID_0023_Timepoint_2"
+    ],
+    "PatientID_0025": [
+      "PatientID_0025_Timepoint_1",
+      "PatientID_0025_Timepoint_2",
+      "PatientID_0025_Timepoint_3"
+    ],
+    "PatientID_0026": [
+      "PatientID_0026_Timepoint_1",
+      "PatientID_0026_Timepoint_2"
+    ],
+    "PatientID_0027": [
+      "PatientID_0027_Timepoint_1"
+    ],
+    "PatientID_0030": [
+      "PatientID_0030_Timepoint_1",
+      "PatientID_0030_Timepoint_3",
+      "PatientID_0030_Timepoint_4"
+    ],
+    "PatientID_0033": [
+      "PatientID_0033_Timepoint_1",
+      "PatientID_0033_Timepoint_2",
+      "PatientID_0033_Timepoint_3",
+      "PatientID_0033_Timepoint_4",
+      "PatientID_0033_Timepoint_5"
+    ],
+    "PatientID_0036": [
+      "PatientID_0036_Timepoint_1",
+      "PatientID_0036_Timepoint_2",
+      "PatientID_0036_Timepoint_3",
+      "PatientID_0036_Timepoint_4",
+      "PatientID_0036_Timepoint_5",
+      "PatientID_0036_Timepoint_6"
+    ],
+    "PatientID_0038": [
+      "PatientID_0038_Timepoint_1",
+      "PatientID_0038_Timepoint_2",
+      "PatientID_0038_Timepoint_3",
+      "PatientID_0038_Timepoint_4",
+      "PatientID_0038_Timepoint_5",
+      "PatientID_0038_Timepoint_6"
+    ],
+    "PatientID_0039": [
+      "PatientID_0039_Timepoint_1",
+      "PatientID_0039_Timepoint_2",
+      "PatientID_0039_Timepoint_3",
+      "PatientID_0039_Timepoint_4",
+      "PatientID_0039_Timepoint_6"
+    ],
+    "PatientID_0040": [
+      "PatientID_0040_Timepoint_1"
+    ],
+    "PatientID_0042": [
+      "PatientID_0042_Timepoint_1"
+    ],
+    "PatientID_0044": [
+      "PatientID_0044_Timepoint_1",
+      "PatientID_0044_Timepoint_2",
+      "PatientID_0044_Timepoint_3",
+      "PatientID_0044_Timepoint_4",
+      "PatientID_0044_Timepoint_5",
+      "PatientID_0044_Timepoint_6"
+    ],
+    "PatientID_0045": [
+      "PatientID_0045_Timepoint_1",
+      "PatientID_0045_Timepoint_2",
+      "PatientID_0045_Timepoint_3",
+      "PatientID_0045_Timepoint_4"
+    ],
+    "PatientID_0049": [
+      "PatientID_0049_Timepoint_1"
+    ],
+    "PatientID_0051": [
+      "PatientID_0051_Timepoint_1",
+      "PatientID_0051_Timepoint_3",
+      "PatientID_0051_Timepoint_4"
+    ],
+    "PatientID_0052": [
+      "PatientID_0052_Timepoint_1",
+      "PatientID_0052_Timepoint_2"
+    ],
+    "PatientID_0056": [
+      "PatientID_0056_Timepoint_2"
+    ],
+    "PatientID_0057": [
+      "PatientID_0057_Timepoint_1"
+    ],
+    "PatientID_0058": [
+      "PatientID_0058_Timepoint_1"
+    ],
+    "PatientID_0059": [
+      "PatientID_0059_Timepoint_1",
+      "PatientID_0059_Timepoint_2",
+      "PatientID_0059_Timepoint_3"
+    ],
+    "PatientID_0060": [
+      "PatientID_0060_Timepoint_1",
+      "PatientID_0060_Timepoint_2"
+    ],
+    "PatientID_0061": [
+      "PatientID_0061_Timepoint_2"
+    ],
+    "PatientID_0062": [
+      "PatientID_0062_Timepoint_1",
+      "PatientID_0062_Timepoint_2"
+    ],
+    "PatientID_0063": [
+      "PatientID_0063_Timepoint_1"
+    ],
+    "PatientID_0064": [
+      "PatientID_0064_Timepoint_1",
+      "PatientID_0064_Timepoint_2"
+    ],
+    "PatientID_0065": [
+      "PatientID_0065_Timepoint_1",
+      "PatientID_0065_Timepoint_2",
+      "PatientID_0065_Timepoint_3",
+      "PatientID_0065_Timepoint_4",
+      "PatientID_0065_Timepoint_5"
+    ],
+    "PatientID_0066": [
+      "PatientID_0066_Timepoint_1",
+      "PatientID_0066_Timepoint_2",
+      "PatientID_0066_Timepoint_3",
+      "PatientID_0066_Timepoint_5",
+      "PatientID_0066_Timepoint_6"
+    ],
+    "PatientID_0068": [
+      "PatientID_0068_Timepoint_1",
+      "PatientID_0068_Timepoint_2",
+      "PatientID_0068_Timepoint_3",
+      "PatientID_0068_Timepoint_4",
+      "PatientID_0068_Timepoint_5"
+    ],
+    "PatientID_0069": [
+      "PatientID_0069_Timepoint_2",
+      "PatientID_0069_Timepoint_3",
+      "PatientID_0069_Timepoint_4",
+      "PatientID_0069_Timepoint_5",
+      "PatientID_0069_Timepoint_6"
+    ],
+    "PatientID_0070": [
+      "PatientID_0070_Timepoint_1",
+      "PatientID_0070_Timepoint_2",
+      "PatientID_0070_Timepoint_3",
+      "PatientID_0070_Timepoint_4"
+    ],
+    "PatientID_0071": [
+      "PatientID_0071_Timepoint_1"
+    ],
+    "PatientID_0072": [
+      "PatientID_0072_Timepoint_1",
+      "PatientID_0072_Timepoint_2",
+      "PatientID_0072_Timepoint_3"
+    ],
+    "PatientID_0073": [
+      "PatientID_0073_Timepoint_1",
+      "PatientID_0073_Timepoint_2",
+      "PatientID_0073_Timepoint_3",
+      "PatientID_0073_Timepoint_4"
+    ],
+    "PatientID_0076": [
+      "PatientID_0076_Timepoint_1",
+      "PatientID_0076_Timepoint_2"
+    ],
+    "PatientID_0077": [
+      "PatientID_0077_Timepoint_1"
+    ],
+    "PatientID_0078": [
+      "PatientID_0078_Timepoint_1",
+      "PatientID_0078_Timepoint_2",
+      "PatientID_0078_Timepoint_3"
+    ],
+    "PatientID_0079": [
+      "PatientID_0079_Timepoint_1",
+      "PatientID_0079_Timepoint_2",
+      "PatientID_0079_Timepoint_3",
+      "PatientID_0079_Timepoint_4",
+      "PatientID_0079_Timepoint_5",
+      "PatientID_0079_Timepoint_6"
+    ],
+    "PatientID_0080": [
+      "PatientID_0080_Timepoint_1",
+      "PatientID_0080_Timepoint_2"
+    ],
+    "PatientID_0081": [
+      "PatientID_0081_Timepoint_1",
+      "PatientID_0081_Timepoint_2"
+    ],
+    "PatientID_0082": [
+      "PatientID_0082_Timepoint_1",
+      "PatientID_0082_Timepoint_2"
+    ],
+    "PatientID_0083": [
+      "PatientID_0083_Timepoint_1",
+      "PatientID_0083_Timepoint_2",
+      "PatientID_0083_Timepoint_3",
+      "PatientID_0083_Timepoint_4",
+      "PatientID_0083_Timepoint_5",
+      "PatientID_0083_Timepoint_6"
+    ],
+    "PatientID_0084": [
+      "PatientID_0084_Timepoint_1",
+      "PatientID_0084_Timepoint_2",
+      "PatientID_0084_Timepoint_3",
+      "PatientID_0084_Timepoint_4",
+      "PatientID_0084_Timepoint_5",
+      "PatientID_0084_Timepoint_6"
+    ],
+    "PatientID_0085": [
+      "PatientID_0085_Timepoint_1",
+      "PatientID_0085_Timepoint_2",
+      "PatientID_0085_Timepoint_3",
+      "PatientID_0085_Timepoint_4"
+    ],
+    "PatientID_0087": [
+      "PatientID_0087_Timepoint_1",
+      "PatientID_0087_Timepoint_2",
+      "PatientID_0087_Timepoint_3"
+    ],
+    "PatientID_0090": [
+      "PatientID_0090_Timepoint_1",
+      "PatientID_0090_Timepoint_2"
+    ],
+    "PatientID_0091": [
+      "PatientID_0091_Timepoint_1",
+      "PatientID_0091_Timepoint_2"
+    ],
+    "PatientID_0092": [
+      "PatientID_0092_Timepoint_1",
+      "PatientID_0092_Timepoint_2"
+    ],
+    "PatientID_0093": [
+      "PatientID_0093_Timepoint_1",
+      "PatientID_0093_Timepoint_2",
+      "PatientID_0093_Timepoint_3",
+      "PatientID_0093_Timepoint_4"
+    ],
+    "PatientID_0094": [
+      "PatientID_0094_Timepoint_1",
+      "PatientID_0094_Timepoint_2",
+      "PatientID_0094_Timepoint_3",
+      "PatientID_0094_Timepoint_4",
+      "PatientID_0094_Timepoint_5",
+      "PatientID_0094_Timepoint_6"
+    ],
+    "PatientID_0095": [
+      "PatientID_0095_Timepoint_1",
+      "PatientID_0095_Timepoint_2",
+      "PatientID_0095_Timepoint_3",
+      "PatientID_0095_Timepoint_4",
+      "PatientID_0095_Timepoint_6"
+    ],
+    "PatientID_0097": [
+      "PatientID_0097_Timepoint_1",
+      "PatientID_0097_Timepoint_2",
+      "PatientID_0097_Timepoint_3",
+      "PatientID_0097_Timepoint_4",
+      "PatientID_0097_Timepoint_5",
+      "PatientID_0097_Timepoint_6"
+    ],
+    "PatientID_0101": [
+      "PatientID_0101_Timepoint_1"
+    ],
+    "PatientID_0103": [
+      "PatientID_0103_Timepoint_1",
+      "PatientID_0103_Timepoint_2",
+      "PatientID_0103_Timepoint_3",
+      "PatientID_0103_Timepoint_4",
+      "PatientID_0103_Timepoint_5",
+      "PatientID_0103_Timepoint_6"
+    ],
+    "PatientID_0105": [
+      "PatientID_0105_Timepoint_1",
+      "PatientID_0105_Timepoint_2",
+      "PatientID_0105_Timepoint_3",
+      "PatientID_0105_Timepoint_4",
+      "PatientID_0105_Timepoint_5",
+      "PatientID_0105_Timepoint_6"
+    ],
+    "PatientID_0106": [
+      "PatientID_0106_Timepoint_2"
+    ],
+    "PatientID_0108": [
+      "PatientID_0108_Timepoint_1"
+    ],
+    "PatientID_0110": [
+      "PatientID_0110_Timepoint_1",
+      "PatientID_0110_Timepoint_2",
+      "PatientID_0110_Timepoint_3"
+    ],
+    "PatientID_0111": [
+      "PatientID_0111_Timepoint_1"
+    ],
+    "PatientID_0112": [
+      "PatientID_0112_Timepoint_1"
+    ],
+    "PatientID_0113": [
+      "PatientID_0113_Timepoint_1",
+      "PatientID_0113_Timepoint_2",
+      "PatientID_0113_Timepoint_3"
+    ],
+    "PatientID_0114": [
+      "PatientID_0114_Timepoint_1",
+      "PatientID_0114_Timepoint_2"
+    ],
+    "PatientID_0115": [
+      "PatientID_0115_Timepoint_1"
+    ],
+    "PatientID_0116": [
+      "PatientID_0116_Timepoint_1",
+      "PatientID_0116_Timepoint_2"
+    ],
+    "PatientID_0117": [
+      "PatientID_0117_Timepoint_1",
+      "PatientID_0117_Timepoint_2",
+      "PatientID_0117_Timepoint_3"
+    ],
+    "PatientID_0118": [
+      "PatientID_0118_Timepoint_1",
+      "PatientID_0118_Timepoint_2",
+      "PatientID_0118_Timepoint_3"
+    ],
+    "PatientID_0121": [
+      "PatientID_0121_Timepoint_1",
+      "PatientID_0121_Timepoint_2",
+      "PatientID_0121_Timepoint_3"
+    ],
+    "PatientID_0123": [
+      "PatientID_0123_Timepoint_1",
+      "PatientID_0123_Timepoint_2"
+    ],
+    "PatientID_0124": [
+      "PatientID_0124_Timepoint_1"
+    ],
+    "PatientID_0126": [
+      "PatientID_0126_Timepoint_1"
+    ],
+    "PatientID_0130": [
+      "PatientID_0130_Timepoint_1"
+    ],
+    "PatientID_0132": [
+      "PatientID_0132_Timepoint_1",
+      "PatientID_0132_Timepoint_2",
+      "PatientID_0132_Timepoint_3"
+    ],
+    "PatientID_0133": [
+      "PatientID_0133_Timepoint_1"
+    ],
+    "PatientID_0138": [
+      "PatientID_0138_Timepoint_1",
+      "PatientID_0138_Timepoint_2",
+      "PatientID_0138_Timepoint_3"
+    ],
+    "PatientID_0139": [
+      "PatientID_0139_Timepoint_1"
+    ],
+    "PatientID_0140": [
+      "PatientID_0140_Timepoint_1",
+      "PatientID_0140_Timepoint_2",
+      "PatientID_0140_Timepoint_3"
+    ],
+    "PatientID_0141": [
+      "PatientID_0141_Timepoint_1"
+    ],
+    "PatientID_0142": [
+      "PatientID_0142_Timepoint_1",
+      "PatientID_0142_Timepoint_2"
+    ],
+    "PatientID_0143": [
+      "PatientID_0143_Timepoint_1"
+    ],
+    "PatientID_0144": [
+      "PatientID_0144_Timepoint_1"
+    ],
+    "PatientID_0148": [
+      "PatientID_0148_Timepoint_1",
+      "PatientID_0148_Timepoint_2"
+    ],
+    "PatientID_0149": [
+      "PatientID_0149_Timepoint_1",
+      "PatientID_0149_Timepoint_2",
+      "PatientID_0149_Timepoint_3",
+      "PatientID_0149_Timepoint_4"
+    ],
+    "PatientID_0150": [
+      "PatientID_0150_Timepoint_1",
+      "PatientID_0150_Timepoint_2",
+      "PatientID_0150_Timepoint_3",
+      "PatientID_0150_Timepoint_4",
+      "PatientID_0150_Timepoint_6"
+    ],
+    "PatientID_0151": [
+      "PatientID_0151_Timepoint_1",
+      "PatientID_0151_Timepoint_2"
+    ],
+    "PatientID_0152": [
+      "PatientID_0152_Timepoint_1",
+      "PatientID_0152_Timepoint_2",
+      "PatientID_0152_Timepoint_3"
+    ],
+    "PatientID_0155": [
+      "PatientID_0155_Timepoint_1"
+    ],
+    "PatientID_0156": [
+      "PatientID_0156_Timepoint_1",
+      "PatientID_0156_Timepoint_2",
+      "PatientID_0156_Timepoint_3"
+    ],
+    "PatientID_0158": [
+      "PatientID_0158_Timepoint_1"
+    ],
+    "PatientID_0160": [
+      "PatientID_0160_Timepoint_1",
+      "PatientID_0160_Timepoint_2"
+    ],
+    "PatientID_0161": [
+      "PatientID_0161_Timepoint_1"
+    ],
+    "PatientID_0164": [
+      "PatientID_0164_Timepoint_1",
+      "PatientID_0164_Timepoint_2",
+      "PatientID_0164_Timepoint_3",
+      "PatientID_0164_Timepoint_4",
+      "PatientID_0164_Timepoint_5"
+    ],
+    "PatientID_0165": [
+      "PatientID_0165_Timepoint_1"
+    ],
+    "PatientID_0168": [
+      "PatientID_0168_Timepoint_1"
+    ],
+    "PatientID_0169": [
+      "PatientID_0169_Timepoint_1",
+      "PatientID_0169_Timepoint_2",
+      "PatientID_0169_Timepoint_3",
+      "PatientID_0169_Timepoint_4"
+    ],
+    "PatientID_0170": [
+      "PatientID_0170_Timepoint_1",
+      "PatientID_0170_Timepoint_2"
+    ],
+    "PatientID_0173": [
+      "PatientID_0173_Timepoint_1",
+      "PatientID_0173_Timepoint_2"
+    ],
+    "PatientID_0174": [
+      "PatientID_0174_Timepoint_1"
+    ],
+    "PatientID_0186": [
+      "PatientID_0186_Timepoint_1",
+      "PatientID_0186_Timepoint_2",
+      "PatientID_0186_Timepoint_3",
+      "PatientID_0186_Timepoint_4",
+      "PatientID_0186_Timepoint_5",
+      "PatientID_0186_Timepoint_6"
+    ],
+    "PatientID_0187": [
+      "PatientID_0187_Timepoint_1",
+      "PatientID_0187_Timepoint_2"
+    ],
+    "PatientID_0188": [
+      "PatientID_0188_Timepoint_1",
+      "PatientID_0188_Timepoint_2"
+    ],
+    "PatientID_0189": [
+      "PatientID_0189_Timepoint_1",
+      "PatientID_0189_Timepoint_2",
+      "PatientID_0189_Timepoint_3",
+      "PatientID_0189_Timepoint_4",
+      "PatientID_0189_Timepoint_5",
+      "PatientID_0189_Timepoint_6"
+    ],
+    "PatientID_0191": [
+      "PatientID_0191_Timepoint_2",
+      "PatientID_0191_Timepoint_3",
+      "PatientID_0191_Timepoint_4"
+    ],
+    "PatientID_0192": [
+      "PatientID_0192_Timepoint_1",
+      "PatientID_0192_Timepoint_2",
+      "PatientID_0192_Timepoint_3"
+    ],
+    "PatientID_0196": [
+      "PatientID_0196_Timepoint_1",
+      "PatientID_0196_Timepoint_2",
+      "PatientID_0196_Timepoint_3"
+    ],
+    "PatientID_0197": [
+      "PatientID_0197_Timepoint_1",
+      "PatientID_0197_Timepoint_2",
+      "PatientID_0197_Timepoint_3"
+    ],
+    "PatientID_0198": [
+      "PatientID_0198_Timepoint_1",
+      "PatientID_0198_Timepoint_2",
+      "PatientID_0198_Timepoint_3",
+      "PatientID_0198_Timepoint_4"
+    ],
+    "PatientID_0200": [
+      "PatientID_0200_Timepoint_1"
+    ],
+    "PatientID_0201": [
+      "PatientID_0201_Timepoint_1",
+      "PatientID_0201_Timepoint_2",
+      "PatientID_0201_Timepoint_3",
+      "PatientID_0201_Timepoint_4",
+      "PatientID_0201_Timepoint_5",
+      "PatientID_0201_Timepoint_6"
+    ],
+    "PatientID_0203": [
+      "PatientID_0203_Timepoint_1"
+    ],
+    "PatientID_0204": [
+      "PatientID_0204_Timepoint_1",
+      "PatientID_0204_Timepoint_2",
+      "PatientID_0204_Timepoint_3",
+      "PatientID_0204_Timepoint_4",
+      "PatientID_0204_Timepoint_5",
+      "PatientID_0204_Timepoint_6"
+    ],
+    "PatientID_0205": [
+      "PatientID_0205_Timepoint_1",
+      "PatientID_0205_Timepoint_2",
+      "PatientID_0205_Timepoint_3",
+      "PatientID_0205_Timepoint_4",
+      "PatientID_0205_Timepoint_5"
+    ],
+    "PatientID_0206": [
+      "PatientID_0206_Timepoint_1"
+    ],
+    "PatientID_0208": [
+      "PatientID_0208_Timepoint_1",
+      "PatientID_0208_Timepoint_2"
+    ],
+    "PatientID_0209": [
+      "PatientID_0209_Timepoint_1",
+      "PatientID_0209_Timepoint_2",
+      "PatientID_0209_Timepoint_3",
+      "PatientID_0209_Timepoint_4",
+      "PatientID_0209_Timepoint_5",
+      "PatientID_0209_Timepoint_6"
+    ],
+    "PatientID_0210": [
+      "PatientID_0210_Timepoint_1",
+      "PatientID_0210_Timepoint_2",
+      "PatientID_0210_Timepoint_3",
+      "PatientID_0210_Timepoint_4",
+      "PatientID_0210_Timepoint_6"
+    ],
+    "PatientID_0211": [
+      "PatientID_0211_Timepoint_1",
+      "PatientID_0211_Timepoint_2",
+      "PatientID_0211_Timepoint_3"
+    ],
+    "PatientID_0213": [
+      "PatientID_0213_Timepoint_1",
+      "PatientID_0213_Timepoint_2",
+      "PatientID_0213_Timepoint_3",
+      "PatientID_0213_Timepoint_4",
+      "PatientID_0213_Timepoint_5"
+    ],
+    "PatientID_0214": [
+      "PatientID_0214_Timepoint_1",
+      "PatientID_0214_Timepoint_2",
+      "PatientID_0214_Timepoint_3",
+      "PatientID_0214_Timepoint_4",
+      "PatientID_0214_Timepoint_5",
+      "PatientID_0214_Timepoint_6"
+    ],
+    "PatientID_0216": [
+      "PatientID_0216_Timepoint_1"
+    ],
+    "PatientID_0220": [
+      "PatientID_0220_Timepoint_1",
+      "PatientID_0220_Timepoint_6"
+    ],
+    "PatientID_0235": [
+      "PatientID_0235_Timepoint_1",
+      "PatientID_0235_Timepoint_3",
+      "PatientID_0235_Timepoint_6"
+    ],
+    "PatientID_0237": [
+      "PatientID_0237_Timepoint_1",
+      "PatientID_0237_Timepoint_3"
+    ],
+    "PatientID_0239": [
+      "PatientID_0239_Timepoint_1",
+      "PatientID_0239_Timepoint_3",
+      "PatientID_0239_Timepoint_6"
+    ],
+    "PatientID_0240": [
+      "PatientID_0240_Timepoint_1",
+      "PatientID_0240_Timepoint_3",
+      "PatientID_0240_Timepoint_6"
+    ],
+    "PatientID_0242": [
+      "PatientID_0242_Timepoint_1",
+      "PatientID_0242_Timepoint_3",
+      "PatientID_0242_Timepoint_6"
+    ],
+    "PatientID_0244": [
+      "PatientID_0244_Timepoint_1"
+    ],
+    "PatientID_0251": [
+      "PatientID_0251_Timepoint_1",
+      "PatientID_0251_Timepoint_2",
+      "PatientID_0251_Timepoint_3"
+    ],
+    "PatientID_0252": [
+      "PatientID_0252_Timepoint_1",
+      "PatientID_0252_Timepoint_2",
+      "PatientID_0252_Timepoint_3"
+    ],
+    "PatientID_0254": [
+      "PatientID_0254_Timepoint_1",
+      "PatientID_0254_Timepoint_2",
+      "PatientID_0254_Timepoint_3",
+      "PatientID_0254_Timepoint_4"
+    ],
+    "PatientID_0255": [
+      "PatientID_0255_Timepoint_1",
+      "PatientID_0255_Timepoint_2"
+    ],
+    "PatientID_0256": [
+      "PatientID_0256_Timepoint_1",
+      "PatientID_0256_Timepoint_2",
+      "PatientID_0256_Timepoint_3",
+      "PatientID_0256_Timepoint_4",
+      "PatientID_0256_Timepoint_5"
+    ],
+    "PatientID_0260": [
+      "PatientID_0260_Timepoint_1",
+      "PatientID_0260_Timepoint_2"
+    ],
+    "PatientID_0264": [
+      "PatientID_0264_Timepoint_1",
+      "PatientID_0264_Timepoint_2"
+    ],
+    "PatientID_0265": [
+      "PatientID_0265_Timepoint_1",
+      "PatientID_0265_Timepoint_2"
+    ],
+    "PatientID_0268": [
+      "PatientID_0268_Timepoint_1",
+      "PatientID_0268_Timepoint_3",
+      "PatientID_0268_Timepoint_6"
+    ],
+    "PatientID_0270": [
+      "PatientID_0270_Timepoint_1",
+      "PatientID_0270_Timepoint_3",
+      "PatientID_0270_Timepoint_6"
+    ],
+    "PatientID_0271": [
+      "PatientID_0271_Timepoint_1",
+      "PatientID_0271_Timepoint_3",
+      "PatientID_0271_Timepoint_6"
+    ],
+    "PatientID_0272": [
+      "PatientID_0272_Timepoint_1",
+      "PatientID_0272_Timepoint_3",
+      "PatientID_0272_Timepoint_6"
+    ],
+    "PatientID_0274": [
+      "PatientID_0274_Timepoint_1",
+      "PatientID_0274_Timepoint_3"
+    ],
+    "PatientID_0275": [
+      "PatientID_0275_Timepoint_1",
+      "PatientID_0275_Timepoint_3",
+      "PatientID_0275_Timepoint_6"
+    ]
+  }
+}
