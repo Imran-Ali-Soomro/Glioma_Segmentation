@@ -1,7 +1,7 @@
 # Code and derived data: *A Controlled Comparison of Factorised and Monolithic Models for Correcting Predicted Regions in Glioma Segmentation After Treatment*
 
 This package accompanies the revised manuscript (Discover Computer Vision). It contains everything needed to
-reproduce every table and figure from the saved intermediate files, and the code needed to regenerate those
+reproduce each table and figure from the saved intermediate files, and the code needed to regenerate those
 intermediates from the public MU-Glioma-Post data.
 
 ## What is (and is not) included
